@@ -5,7 +5,7 @@ import warnings
 from zmq.log.handlers import PUBHandler
 
 warnings.warn(
-    "ipykernel.log is deprecated. It has moved to ipyparallel.engine.log",
+    "ipykernel.log is deprecated. It has moved to ipyparallel.engine.log sine ipykernel 4.3.0 (2015)",
     DeprecationWarning,
     stacklevel=2,
 )
